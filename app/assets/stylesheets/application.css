@@ -11,8 +11,7 @@
  *= require_self
  *= require_tree .
  */
-@import "bootstrap";
-@import "font-awesome";
+
 body {
 	background-color: #e7ffc9;
 	background-position: center;
@@ -74,5 +73,3 @@ footer {
 	background-color: #ebb4ff;
 	clear: both;
 }
-
-@import "bootstrap-responsive";
