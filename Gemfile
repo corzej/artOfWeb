@@ -7,6 +7,7 @@ gem 'haml'
 gem 'twitter-bootstrap-rails'
 gem "therubyracer"
 gem "less-rails"
+
 group :development, :test do
   gem 'sqlite3', '1.3.7'
 
