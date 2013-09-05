@@ -5,6 +5,7 @@ ArtOfWeb::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'week1#home'
+  get '/week2', to: 'week1#week2', as: 'week2'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -11,3 +11,64 @@
  *= require_self
  *= require_tree .
  */
+body {
+	background-color: #e7ffc9;
+	background-position: center;
+}
+.wrapperForAOW {
+	width: 940px;
+	margin: 20px auto;
+	border: 2px solid #ff3178;
+}
+header {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 30px;
+	height: 180px;
+	line-height: 50px;
+	background-color: #ffb0c2;
+}
+header h1 {
+	height: 130px;
+	width: 940px;
+	margin: 0px;
+}
+nav ul {
+	margin-left: 0px;
+	background-color: #8faaff;
+}
+nav li {
+	display: inline;
+	margin-right: 30px; 
+}
+figure {
+	float: left;
+	width: 250px;
+	height: 250px;
+	padding: 5px;
+	margin: 20px;
+}
+hgroup {
+	margin-top: 40px;
+}
+aside {
+	width: 230px;
+	float: left;
+	padding-left: 20px;
+	background-color: #c8ff94;
+}
+section.leftSide {
+	float: left;
+	width: 659px;
+}
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+}
+article p {
+}
+footer {
+	background-color: #ebb4ff;
+	clear: both;
+}

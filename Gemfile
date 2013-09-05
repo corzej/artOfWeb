@@ -3,10 +3,13 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.0'
+gem 'haml'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
-  gem 'rspec-rails', '2.13.1'
+	gem 'twitter-bootstrap-rails'
+	gem "therubyracer"
+	gem "less-rails"
 end
 
 group :test do
@@ -25,6 +28,9 @@ group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
 
+group :assets do
+	gem 'twitter-bootstrap-rails'
+end
 group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
