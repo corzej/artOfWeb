@@ -7,6 +7,9 @@ gem 'haml'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
+	gem 'twitter-bootstrap-rails'
+	gem "therubyracer"
+	gem "less-rails"
 end
 
 group :test do
@@ -24,7 +27,6 @@ gem 'google_drive', '0.3.6'
 group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
-
 
 group :production do
   gem 'pg', '0.15.1'
